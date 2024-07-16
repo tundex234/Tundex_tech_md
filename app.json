@@ -20,7 +20,7 @@
       },
       "USER_IMAGES": {
         "description": "Menu Images",
-        "value": "https://i.imgur.com/H4qeXwa.jpeg",
+        "value": "https://imgur.com/qLOAcGn.jpeg",
         "required": false
       },
   
@@ -35,7 +35,7 @@
       },
       "THUMB_IMAGE": {
         "description": "Thumbnail",
-        "value": "https://i.imgur.com/H4qeXwa.jpeg"
+        "value": "https://imgur.com/qLOAcGn.jpeg"
       },
       "BOT_NAME": {
         "description": " NAME FOR BOT",

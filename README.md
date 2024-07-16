@@ -109,7 +109,7 @@
 
 * [🧑‍💻 Join 𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃Group 🧑‍💻](https://t.me/malvink1ng)
 
-* [✅ Join Public Group ⚡]([https://chat.whatsapp.com/E6kJ5jQUb3h6cuVyznq7YT)
+* [✅ Join Public Group ⚡]([https://chat.whatsapp.com/E6kJ5jQUb3h6cuVyznq7YT])
 
   <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
   
@@ -133,7 +133,7 @@ Plugins | Bug Fixer & Help |
 
 ## Support
 
-SUPPORT CHANNEL: <a href="[https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z)"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+SUPPORT CHANNEL: <a href="[https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z]"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 
 ### Please Give One Star ✨ & [follow me notify my updates 💗](https://github.com/malvinking)

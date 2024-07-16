@@ -81,7 +81,12 @@
 ### DEPLOY ON RAILWAY
 1. Deploy.
     <br>
-    <a href='https://railway.com/github/malvinking/King_Malvin_Md' target="_blank"><img alt='Railway' src='https://img.shields.io/badge/-Deploy-green?style=for-the-badge&logo=railway&logoColor=white'/></a>
+    <a href='https://railway.com/github/malvinking/King_Malvin_Md' target="_blank"><img alt='Railway' src='https://img.shields.io/badge/-Deploy-blue?style=for-the-badge&logo=railway&logoColor=white'/></a>
+
+### DEPLOY ON RENDER
+1. Deploy.
+    <br>
+    <a href='https://render.com/github/malvinking/King_Malvin_Md' target="_blank"><img alt='Render' src='https://img.shields.io/badge/-Deploy-green?style=for-the-badge&logo=render&logoColor=white'/></a>
 
     <h2 align="center"> ⚠️ NOTE  </h2>
 ## 𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃 SCRIPT IS NOT OPENLY ALLOWED TO USED IN ANY OF YOUR PROJECTS BE WARNED!!! 

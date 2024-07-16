@@ -1,7 +1,7 @@
 {
     "name": "𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃",
     "description": "Simple WhatsApp Bot",
-    "logo": "https://i.imgur.com/H4qeXwa.jpeg",
+    "logo": "https://i.imgur.com/hT3wEr7.jpeg",
     "keywords": ["malvinking", "Malvin-V2", "King_Malvin"],
     "success_url": "/",
     "stack": "container",
@@ -35,7 +35,7 @@
       },
       "THUMB_IMAGE": {
         "description": "Thumbnail",
-        "value": "https://imgur.com/qLOAcGn.jpeg"
+        "value": "https://imgur.com/hT3wEr7.jpeg"
       },
       "BOT_NAME": {
         "description": " NAME FOR BOT",

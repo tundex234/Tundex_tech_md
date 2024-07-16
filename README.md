@@ -27,13 +27,17 @@
 
 <a href='https://github.com/malvinking/King_Malvin_Md/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
 
-### 2. GET SESSION ID HERE
+### . GET SESSION ID HERE👇👇
+
+### 1. KING MALVIN APP
+
+<a href="https://malvin-session.onrender.com/"><img src="https://img.shields.io/badge/KING MALVIN APP-blue" alt="Click Here to Get King Malvin App" width="110"></a>
 
 ### SERVER 1
  
-<a href="https://anita-server-1.onrender.com/pair"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>   
+<a href="https://malvin-session.onrender.com/pair"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>   
 
-<a href="https://anita-server-1.onrender.com/wasiqr"><img src="https://img.shields.io/badge/QR CODE-green" alt="Click Here to Get QR-Code" width="90"></a>
+<a href="https://malvin-session.onrender.com/wasiqr"><img src="https://img.shields.io/badge/QR CODE-green" alt="Click Here to Get QR-Code" width="90"></a>
 
 ### SERVER 2 
 ### GET SESSION ID HERE

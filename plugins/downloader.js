@@ -396,7 +396,7 @@ cmd({
     const _0x4ac8f2 = await search(_0x1cb962);
     if (_0x4ac8f2.length) {
       let _0x3d85b = await download(_0x4ac8f2[0].id);
-      let _0x307e6f = "*QUEEN_ANITA-V2 • APK DOWNLOAD LIST* \n*________________________________* \n\n*_Reply Any Number To Download._*\n_Results For : " + _0x1cb962 + "_ \n";
+      let _0x307e6f = "*KING_MALVIN_MD • APK DOWNLOAD LIST* \n*________________________________* \n\n*_Reply Any Number To Download._*\n_Results For : " + _0x1cb962 + "_ \n";
       for (let _0x5a5920 = 0; _0x5a5920 < _0x4ac8f2.length; _0x5a5920++) {
         _0x307e6f += "\n*" + (_0x5a5920 + 1) + " : " + _0x4ac8f2[_0x5a5920].name + "* \n*Id : " + _0x4ac8f2[_0x5a5920].id + "* \n";
       }
@@ -457,7 +457,7 @@ smd({
   try {
     let _0x59e849 = _0x1c586e ? _0x1c586e : _0x1ae8f8.reply_message ? _0x1ae8f8.reply_message.text : "";
     if (!_0x1c586e) {
-      return await _0x1ae8f8.reply("*Provide Repo Url, _.gitclone https://github.com/DeeCeeXxx/Queen_Anita-V2_*");
+      return await _0x1ae8f8.reply("*Provide Repo Url, _.gitclone https://github.com/malvinking/King_Malvin_Md*");
     }
     const _0x5906ab = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i;
     if (!_0x5906ab.test(_0x1c586e)) {
@@ -518,7 +518,7 @@ smd({
   try {
     let _0x204f81 = _0x55aba2.reply_text ? _0x55aba2.reply_text : _0x56da6b;
     if (!_0x204f81) {
-      return _0x55aba2.reply("*_Example : .tts Hi,I am QUEEN_ANITA-V2 whatsapp bot._*");
+      return _0x55aba2.reply("*_Example : .tts Hi,I am KING_MALVIN_MD whatsapp bot._*");
     }
     try {
       let _0x1974d5 = _0x56da6b ? _0x56da6b.split(" ")[0].toLowerCase() : "en";
@@ -657,7 +657,7 @@ smd({
       var _0x3048ab = {
         ...(await _0xe5ea97.bot.contextInfo(Config.botname, "ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ"))
       };
-      let _0x3448d2 = _0x4e4465.title || _0x3e3caf || _0x421809[1] || "QUEEN_ANITA-V2 -- YT Video";
+      let _0x3448d2 = _0x4e4465.title || _0x3e3caf || _0x421809[1] || "KING_MALVIN -- YT Video";
       if (_0x3e3caf) {
         await _0xe5ea97.bot.sendMessage(_0xe5ea97.chat, {
           [_0x5b10f0]: {
@@ -1002,7 +1002,7 @@ cmd({
       return await _0x1c8285.reply("*_Give Me Search Query!_*");
     }
     let _0x2878ec = await yts(_0xca939c);
-    let _0x4186e4 = "*QUEEN_ANITA-V2 • YOUTUBE DOWNLOADER* \n*_______________________________* \n\n_Reply Any Number To Download._\n  _For Audio: 1 mp3._\n  _For Video: 1 video._\n  _For document: 1 document._\n\n_Results For : " + _0xca939c + "_ \n\n";
+    let _0x4186e4 = "*KING_MALVIN_MD • YOUTUBE DOWNLOADER* \n*_______________________________* \n\n_Reply Any Number To Download._\n  _For Audio: 1 mp3._\n  _For Video: 1 video._\n  _For document: 1 document._\n\n_Results For : " + _0xca939c + "_ \n\n";
     let _0x463366 = 1;
     for (let _0x308e22 of _0x2878ec.all) {
       _0x4186e4 += " \n*" + _0x463366++ + " : " + _0x308e22.title + (_0x308e22.timestamp ? "(" + _0x308e22.timestamp + ")" : "") + "*\n*Url : " + _0x308e22.url + "*";
@@ -1220,7 +1220,7 @@ smd({
         url: _0x59bbaa
       },
       mimetype: "audio/mpeg",
-      fileName: "QUEEN_ANITA-V2--" + _0x1d542b[1] + ".mp3",
+      fileName: "KING_MALVIN---" + _0x1d542b[1] + ".mp3",
       caption: Config.caption,
       contextInfo: _0x10e2fa
     };
@@ -1241,7 +1241,7 @@ cmd({
 }) => {
   if (_0xb75e78.quoted && _0xb75e78.text) {
     const _0x5b8ee5 = _0xb75e78.quoted.text.split("\n");
-    if (_0x5b8ee5[0].includes("QUEEN_ANITA-V2 • SONG DOWNLOADER")) {
+    if (_0x5b8ee5[0].includes("KING_MALVIN_MD • SONG DOWNLOADER")) {
       const _0x1724ba = _0x5b8ee5.find(_0x525632 => _0x525632.startsWith("Url :"));
       let _0x43a95e = _0x1724ba.replace("Url :", "").trim();
       try {
@@ -1294,7 +1294,7 @@ cmd({
       } catch (_0x189dd8) {
         return await _0xb75e78.reply("Error While Downloading Video : " + _0x189dd8);
       }
-    } else if (_0x5b8ee5[0].includes("QUEEN_ANITA-V2 • YOUTUBE DOWNLOADER")) {
+    } else if (_0x5b8ee5[0].includes("KING_MALVIN_MD • YOUTUBE DOWNLOADER")) {
       let _0x307bb6 = "*" + _0xb75e78.text.split(" ")[0] + " : ";
       const _0x56275d = _0x5b8ee5.find(_0x3b5e74 => _0x3b5e74.startsWith(_0x307bb6));
       if (_0x56275d) {

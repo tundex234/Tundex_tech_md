@@ -14,4 +14,4 @@ fs.readdir(directoryPath, function (err, files) {
     });
     console.log(`Found ${jsFileCount} .js files in the directory.`);
 });
-//𝙼𝙰𝙻𝚅𝙸𝙽 𝙺𝙸𝙽𝙶
+//Malvin King 

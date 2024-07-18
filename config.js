@@ -16,7 +16,7 @@ global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/malvinking/King_Malvin_Md";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/3958957b7125021f7cc5edda909530c3.jpg";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/72862bb0ac87293d1d198.jpg";
 global.devs = "263714757857";
 global.sudo = process.env.SUDO || "";
 global.owner = process.env.OWNER_NUMBER || "263780166288";
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "`QUEEN_ANITA-V2™`",
-  author: process.env.PACK_AUTHER || "KING_MALVIN_MD",
-  packname: process.env.PACK_NAME || "A N I T A",
-  botname: process.env.BOT_NAME || "KING_MALVIN_MD",
-  ownername: process.env.OWNER_NAME || "King Malvin",
+  caption: process.env.CAPTION || "`ᴋɪɴɢ_ᴍᴀʟᴠɪɴ_ᴍᴅ™`",
+  author: process.env.PACK_AUTHER || "ᴋɪɴɢ_ᴍᴀʟᴠɪɴ_ᴍᴅ",
+  packname: process.env.PACK_NAME || "M A L V I N",
+  botname: process.env.BOT_NAME || "ᴋɪɴɢ_ᴍᴀʟᴠɪɴ_ᴍᴅ ",
+  ownername: process.env.OWNER_NAME || "𝙼𝚊𝚕𝚟𝚒𝚗 𝙺𝚒𝚗𝚐",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
@@ -64,7 +64,7 @@ module.exports = {
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
-  LANG: (process.env.THEME || "K I G N").toUpperCase(),
+  LANG: (process.env.THEME || "M A L V I N").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;

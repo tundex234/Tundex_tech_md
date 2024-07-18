@@ -1,7 +1,7 @@
 {
    "name": "King_Malvin_Md",
    "version": "2.5.0",
-   "description": "Multi device whatsapp bot by 𝙼𝙰𝙻𝚅𝙸𝙽 𝙺𝙸𝙽𝙶.",
+   "description": "Multi device whatsapp bot by malvinking.",
    "main": "index.js",
    "type": "commonjs",
    "scripts": {
@@ -13,7 +13,7 @@
       "fis-heroku-postbuild": "git clone https://github.com/malvinking/King_Malvin_Md.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
    },
-   "author": "𝙼𝙰𝙻𝚅𝙸𝙽 𝙺𝙸𝙽𝙶",
+   "author": "Malvin King",
    "license": "Apache-2.0",
    "dependencies": {
       "@adiwajshing/keyed-db": "^0.2.4",

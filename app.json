@@ -1,15 +1,15 @@
 {
-    "name": "𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃",
+    "name": "King_Malvin_Md",
     "description": "Simple WhatsApp Bot",
     "logo": "https://i.imgur.com/hT3wEr7.jpeg",
-    "keywords": ["malvinking", "Malvin-V2", "King_Malvin"],
+    "keywords": ["malvinking", "Malvin-Md", "King_Malvin"],
     "success_url": "/",
     "stack": "container",
   
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",
-        "value": "𝙼𝙰𝙻𝚅𝙸𝙽 𝙺𝙸𝙽𝙶",
+        "value": "𝙼𝚊𝚕𝚟𝚒𝚗 𝙺𝚒𝚗𝚐",
         "required": true
       },
   
@@ -20,7 +20,7 @@
       },
       "USER_IMAGES": {
         "description": "Menu Images",
-        "value": "https://imgur.com/hT3wEr7.jpeg",
+        "value": "https://i.imgur.com/hT3wEr7.jpeg",
         "required": false
       },
   
@@ -35,12 +35,12 @@
       },
       "THUMB_IMAGE": {
         "description": "Thumbnail",
-        "value": "https://imgur.com/hT3wEr7.jpeg"
+        "value": "https://i.imgur.com/hT3wEr7.jpeg"
       },
       "BOT_NAME": {
         "description": " NAME FOR BOT",
         "required": false,
-        "value": "𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃"
+        "value": "Queen_Anita-V2"
       },
       "TZ": {
         "description": "Put TIME_ZONE according to your location",
@@ -115,12 +115,12 @@
       },
       "PACK_NAME": {
         "description": "Put Sticker Pack_Name.",
-        "value": "𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃",
+        "value": "ᴋɪɴɢ_ᴍᴀʟᴠɪɴ_ᴍᴅ",
         "required": false
       },
       "PACK_AUTHER": {
         "description": "Put Sticker Author_Name.",
-        "value": "𝙼𝙰𝙻𝚅𝙸𝙽 𝙺𝙸𝙽𝙶",
+        "value": "M A L V I N",
         "required": false
       }
     },

@@ -1,13 +1,13 @@
 FROM quay.io/sampandey001/secktor
 
-RUN git clone https://github.com/malvinking/King_Malvin_Md /root/malvinking 
+RUN git clone https://github.com/malvinking/King_Malvin_Md /root/DeeCeeXxx 
 
 # Clear npm cache and remove node_modules directories
 RUN npm cache clean --force
-RUN rm -rf /root/malvinking/node_modules
+RUN rm -rf /root/DeeCeeXxx/node_modules
 
 # Install dependencies
-WORKDIR /root/malvinking 
+WORKDIR /root/DeeCeeXxx 
 RUN npm install
 
 # Add additional Steps To Run...

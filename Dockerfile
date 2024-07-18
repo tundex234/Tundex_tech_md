@@ -1,6 +1,6 @@
 FROM quay.io/sampandey001/secktor
 
-RUN git clone https://github.com/malvinking/King_Malvin_Md /root/malvinking 
+RUN git clone https://github.com/malvinking/King_Malvin_Md.git /root/malvinking 
 
 # Clear npm cache and remove node_modules directories
 RUN npm cache clean --force

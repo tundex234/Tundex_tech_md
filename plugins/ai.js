@@ -294,7 +294,7 @@ const {
         }
   
         const result = data.result;
-        return await message.send(`*King_Malvin_Md ʙᴀʀᴅ ᴀɪ:*\n ${result}`, { quoted: message });
+        return await message.send(`*𝙺𝙸𝙽𝙶 𝙼𝙰𝙻𝚅𝙸𝙽 𝙼𝙳 ʙᴀʀᴅ ᴀɪ:*\n ${result}`, { quoted: message });
       } catch (error) {
         await message.error(error + "\n\nCommand: bard", error, "*Failed to use Bard AI.*");
       }
@@ -317,7 +317,7 @@ const {
       if (!data.result.success) return message.send("*There's a problem, try again later!*");
   
       const { reply } = data.result;
-      const astro = "𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃 ɢᴘᴛ𝟺\n";
+      const astro = "𝙺𝙸𝙽𝙶_𝙼𝙰𝙻𝚅𝙸𝙽_𝙼𝙳 ɢᴘᴛ𝟺\n";
       const tbl = "```";
       await send(message, `${astro}${tbl}${reply}${tbl}`);
     } catch (error) {
@@ -340,7 +340,7 @@ const {
       if (!res.status === 200) return message.send("*There's a problem, try again later!*");
   
       const { result } = res;
-      const astro = "𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃 ɢᴇᴍɪɴɪ ᴀɪ"
+      const astro = "𝙺𝙸𝙽𝙶_𝙼𝙰𝙻𝚅𝙸𝙽_𝙼𝙳 ɢᴇᴍɪɴɪ ᴀɪ"
       const tbl = "```";
       await send(message, `${astro}${tbl}${result}${tbl}`);
     } catch (e) {
@@ -397,7 +397,7 @@ const {
       filename: __filename,
     },
     async (_0x1c0160, _0x482db1) => {
-        let astro = "𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃 ᴄʜᴀᴛ ʙᴏᴛ"
+        let astro = "𝙺𝙸𝙽𝙶_𝙼𝙰𝙻𝚅𝙸𝙽_𝙼𝙳 ᴄʜᴀᴛ ʙᴏᴛ"
       try {
         return _0x1c0160.reply(await aiResponce(_0x1c0160, "chat", _0x482db1));
       } catch (_0x4adf95) {
@@ -689,7 +689,7 @@ const {
           _0x3079e2.msgStatus = true;
           _0x3079e2.senderMsg = _0x358984;
           _0x5f656f =
-            "*𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃 • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ*\n\n*Msg_Id:* " +
+            "*𝙺𝙸𝙽𝙶_𝙼𝙰𝙻𝚅𝙸𝙽_𝙼𝙳 • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ*\n\n*Msg_Id:* " +
             _0x3079e2.id +
             "\n*Date:* _" +
             _0xbcd286 +
@@ -732,8 +732,8 @@ const {
             return;
           }
           if (
-            _0x2acf30.reply_text.includes("𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃• ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
-            _0x2dfb59[0].includes("𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃 • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
+            _0x2acf30.reply_text.includes("𝙺𝙸𝙽𝙶_𝙼𝙰𝙻𝚅𝙸𝙽_𝙼𝙳• ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
+            _0x2dfb59[0].includes("𝙺𝙸𝙽𝙶_𝙼𝙰𝙻𝚅𝙸𝙽_𝙼𝙳 • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
             _0x2dfb59[2].includes("Msg_Id")
           ) {
             let _0x1b0d01 = "" + _0x2dfb59[2].replace("*Msg_Id:* ", "").trim();
@@ -748,7 +748,7 @@ const {
                   _0x2ecd2a.howmanyreply += 1;
                   const _0x5a2204 = _0x2acf30.text.indexOf(",");
                   let _0x3f6b59 =
-                    "*𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃 • ʏᴏᴜʀ ᴀɴᴏɴʏ-ᴍsɢ ʀᴇᴘʟʏ*\n\n*_From @" +
+                    "*𝙺𝙸𝙽𝙶_𝙼𝙰𝙻𝚅𝙸𝙽_𝙼𝙳 • ʏᴏᴜʀ ᴀɴᴏɴʏ-ᴍsɢ ʀᴇᴘʟʏ*\n\n*_From @" +
                     _0x2ecd2a.reciever.split("@")[0] +
                     "_*\n*_Msg_Id: " +
                     _0x2ecd2a.id +
@@ -824,7 +824,7 @@ const {
       alias: ["advertisement"],
       category: "ai",
       desc: "Advertise of your Message, by sending it to provided nmbr range.",
-      use: "263714xx,Your_text_here",
+      use: "2637147578xx,Your_text_here",
       fromMe: true,
       filename: __filename,
     },
@@ -835,7 +835,7 @@ const {
           return await _0x165087.reply(
             "*Advertise of your Message*\n*by sending it to provided nmbr range.*\n" +
               prefix +
-              "advt 234803xx,Your_text_here"
+              "advt 2637147578xx,Your_text_here"
           );
         }
         const _0x94ba67 = _0x14810d.indexOf(",");
@@ -851,7 +851,7 @@ const {
           return _0x165087.send(
             "*You did not add x in number.*\n*Ex: " +
               prefix +
-              "advt 263714xx,Your_Message_here*  \n " +
+              "advt 2637147578xx,Your_Message_here*  \n " +
               Config.caption
           );
         }

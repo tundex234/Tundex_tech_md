@@ -23,7 +23,7 @@ smd({
         let zerogroup = await sck.findOne({  id: chat,   }) || {}
         if (zerogroup?.economy == "false") return reply("*🚦Economy* is not active in current group.");
         if (!isGroup) return reply(tlang().group);
-        const daily  = await eco.daily(sender, "RIAS_GREMORY-BOT", 500); //give 500 for daily, can be changed
+        const daily  = await eco.daily(sender, "𝙺𝙸𝙽𝙶 𝙼𝙰𝙻𝚅𝙸𝙽 𝙼𝙳", 500); //give 500 for daily, can be changed
         if (daily.cd) {
           return await reply(`🧧 You already claimed daily for today, come back in ${daily.cdL}🫡`);
         } else { reply(`you claimed daily ${daily.amount} 🪙 for today🎉.`);  }
@@ -46,8 +46,8 @@ smd({
        if(!isCreator) return message.reply(tlang().owner)
        let users = message.mentionedJid ? message.mentionedJid[0] : message.msg.contextInfo.participant || false;
        if(!users) return message.reply('Please give me user.')
-       const balance  = await eco.balance(users, "RIAS_GREMORY-BOT")
-       await eco.deduct(users, "RIAS_GREMORY-BOT", balance.wallet);
+       const balance  = await eco.balance(users, "𝙺𝙸𝙽𝙶 𝙼𝙰𝙻𝚅𝙸𝙽 𝙼𝙳")
+       await eco.deduct(users, "𝙺𝙸𝙽𝙶 𝙼𝙰𝙻𝚅𝙸𝙽 𝙼𝙳", balance.wallet);
        return await message.reply(`⛩️ User: @${users.split('@')[0]} \n *🧧 @${users.split('@')[0]} lost all 🪙 in wallet.*\n_Now live with that poverty.🫡_`,{mentions:[users]})
       }catch(e){message.error(`${e}\n\ncommand: resetwallet`,e)}
 }
@@ -76,8 +76,8 @@ async(message,match) => {
        case '1000':
        case '1':
        if (k > balance.wallet ) return message.reply(`*_You need to pay 🪙100 to increase bank capacity ~ 1000 sp_*`);
-         const deduct1 = await eco.deduct(user, "RIAS_GREMORY-BOT", 100);
-         const add1 = eco.giveCapacity(user,"RIAS_GREMORY-BOT", 1000);
+         const deduct1 = await eco.deduct(user, "𝙺𝙸𝙽𝙶 𝙼𝙰𝙻𝚅𝙸𝙽 𝙼𝙳", 100);
+         const add1 = eco.giveCapacity(user,"𝙺𝙸𝙽𝙶 𝙼𝙰𝙻𝚅𝙸𝙽 𝙼𝙳", 1000);
          return await message.reply(`*1000 🪙diamond storage has been added in ${message.senderName} bank*`)
 
 
@@ -85,8 +85,8 @@ async(message,match) => {
        case '100000':
        case '2':
        if (k < balance.wallet) return message.reply(`*You need to pay 🪙1000 to increase bank capacity ~ 100000 sp*`);
-         const deduct2 = await eco.deduct(user,"RIAS_GREMORY-BOT", 1000);
-         const add2 = eco.giveCapacity(user, "RIAS_GREMORY-BOT", 100000);
+         const deduct2 = await eco.deduct(user,"𝙺𝙸𝙽𝙶 𝙼𝙰𝙻𝚅𝙸𝙽 𝙼𝙳", 1000);
+         const add2 = eco.giveCapacity(user, "𝙺𝙸𝙽𝙶 𝙼𝙰𝙻𝚅𝙸𝙽 𝙼𝙳", 100000);
          return await message.reply(`*100000 🪙diamond storage has been added in ${message.pushName} bank*`)
 
 
@@ -95,8 +95,8 @@ async(message,match) => {
        case '10000000':
        case '3':
        if (k < balance.wallet) return message.reply(`You need to pay 🪙10000 to increase bank capacity ~ 1000 sp`);
-          const deduct3 = await eco.deduct(user, "RIAS_GREMORY-BOT", 10000);
-          const add3 = eco.giveCapacity(user, "RIAS_GREMORY-BOT", 10000000);
+          const deduct3 = await eco.deduct(user, "𝙺𝙸𝙽𝙶 𝙼𝙰𝙻𝚅𝙸𝙽 𝙼𝙳", 10000);
+          const add3 = eco.giveCapacity(user, "𝙺𝙸𝙽𝙶 𝙼𝙰𝙻𝚅𝙸𝙽 𝙼𝙳", 10000000);
           return await message.reply(`*10000000 🪙diamond storage has been added in ${message.pushName}\'s bank*`)
 
 

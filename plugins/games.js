@@ -644,20 +644,20 @@ class HiddenCardGame {
         this.board[Math.floor(_0x52c4bf / this.row)][_0x52c4bf % this.column] = "🃏";
         let _0x5b6677 = this.displayBoard();
         this.gameStatus = false;
-        return hcg_Logo + "  𝗞𝗜𝗡𝗚 𝗖𝗔𝗥𝗗 𝗙𝗢𝗨𝗡𝗗`\n\n*𝗪𝗶𝗻𝗻𝗲𝗿 𝗜𝘀: _@" + _0xa4cc81.split("@")[0] + "_*\n*𝗟𝗼𝗼𝘀𝗲𝗿 𝗜𝘀: _@" + (_0xa4cc81 === this.player1 ? this.player2 : this.player1).split("@")[0] + "_*\n\n" + _0x5b6677 + " \n\n\n*_Congratulations!_* \n  *_@" + _0xa4cc81.split("@")[0] + " you won the Game!!*_ \n_You found the Hidden Card in " + this.attempts[this.currentPlayer] + " Attempts._\n\n_Hidden King Game Session Finished Now_\n_Type *.hcg* to Start Hidden King Session._\n\n```\t 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗞𝗜𝗡𝗚 𝗠𝗔𝗩𝗜𝗡 𝗠𝗗 ```\n";
+        return hcg_Logo + "  𝗤𝗨𝗘𝗘𝗡 𝗖𝗔𝗥𝗗 𝗙𝗢𝗨𝗡𝗗`\n\n*𝗪𝗶𝗻𝗻𝗲𝗿 𝗜𝘀: _@" + _0xa4cc81.split("@")[0] + "_*\n*𝗟𝗼𝗼𝘀𝗲𝗿 𝗜𝘀: _@" + (_0xa4cc81 === this.player1 ? this.player2 : this.player1).split("@")[0] + "_*\n\n" + _0x5b6677 + " \n\n\n*_Congratulations!_* \n  *_@" + _0xa4cc81.split("@")[0] + " you won the Game!!*_ \n_You found the Hidden Card in " + this.attempts[this.currentPlayer] + " Attempts._\n\n_Hidden Queen Game Session Finished Now_\n_Type *.hcg* to Start Hidden Queen Session._\n\n```\t 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 ᴋɪɴɢ_ᴍᴀʟᴠɪɴ_ᴍᴅ ```\n";
       } else {
         this.board[Math.floor(_0x52c4bf / this.row)][_0x52c4bf % this.column] = "🟦";
         const _0x3d1f61 = this.checkGameResult();
         if (_0x3d1f61 === "continue") {
           this.currentPlayer = _0xa4cc81 === this.player1 ? this.player2 : this.player1;
-          return hcg_Logo + "  𝗞𝗜𝗡𝗚 𝗖𝗔𝗥𝗗 𝗚𝗔𝗠𝗘` \n\n" + this.displayBoard() + "\n\n_Current Turn: @" + this.currentPlayer.split("@")[0] + "_\n_Next @" + (this.currentPlayer === this.player1 ? this.player2 : this.player1).split("@")[0] + "_\n\n\n ▢ *_Please take your turn & find card_*\n ▢ _Enter a number b/w *1* to *" + this.row * this.column + "* !!!_\n\n```\t 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗞𝗜𝗡𝗚 𝗠𝗔𝗩𝗜𝗡 𝗠𝗗 ```";
+          return hcg_Logo + "  𝗤𝗨𝗘𝗘𝗡 𝗖𝗔𝗥𝗗 𝗚𝗔𝗠𝗘` \n\n" + this.displayBoard() + "\n\n_Current Turn: @" + this.currentPlayer.split("@")[0] + "_\n_Next @" + (this.currentPlayer === this.player1 ? this.player2 : this.player1).split("@")[0] + "_\n\n\n ▢ *_Please take your turn & find card_*\n ▢ _Enter a number b/w *1* to *" + this.row * this.column + "* !!!_\n\n```\t 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 ᴋɪɴɢ_ᴍᴀʟᴠɪɴ_ᴍᴅ ```";
         } else {
           this.gameStatus = false;
-          return "┏━━━━━━━━━━━━━━━━━━┓\n┃     𝗛𝗖𝗚---𝗜𝗡𝗩𝗔𝗟𝗜𝗗 𝗚𝗔𝗠𝗘     ┃\n┗━━━━━━━━━━━━━━━━━━┛\n\n\t*_Damnn!!! The hidden card was not found. Game over._*\n\n```\t 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗞𝗜𝗡𝗚 𝗠𝗔𝗩𝗜𝗡 𝗠𝗗 ```";
+          return "┏━━━━━━━━━━━━━━━━━━┓\n┃     𝗛𝗖𝗚---𝗜𝗡𝗩𝗔𝗟𝗜𝗗 𝗚𝗔𝗠𝗘     ┃\n┗━━━━━━━━━━━━━━━━━━┛\n\n\t*_Damnn!!! The hidden card was not found. Game over._*\n\n```\t 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 ᴋɪɴɢ_ᴍᴀʟᴠɪɴ_ᴍᴅ```";
         }
       }
     } else {
-      return "┏━━━━━━━━━━━━━━━━━━┓\n┃     𝗛𝗖𝗚---𝗜𝗡𝗩𝗔𝗟𝗜𝗗 𝗠𝗢𝗩𝗘     ┃\n┗━━━━━━━━━━━━━━━━━━┛\n\n𝗡𝗢𝗧𝗘:\n  Hey _@" + this.currentPlayer.split("@")[0] + "_ (•̪●), \n▢ _You provide an Invalid or Already used number_\n▢ _Provide a number between *1* and *" + this.row * this.column + "* !!!_\n\n```\t Powered by 𝗞𝗜𝗡𝗚 𝗠𝗔𝗩𝗜𝗡 𝗠𝗗 ```";
+      return "┏━━━━━━━━━━━━━━━━━━┓\n┃     𝗛𝗖𝗚---𝗜𝗡𝗩𝗔𝗟𝗜𝗗 𝗠𝗢𝗩𝗘     ┃\n┗━━━━━━━━━━━━━━━━━━┛\n\n𝗡𝗢𝗧𝗘:\n  Hey _@" + this.currentPlayer.split("@")[0] + "_ (•̪●), \n▢ _You provide an Invalid or Already used number_\n▢ _Provide a number between *1* and *" + this.row * this.column + "* !!!_\n\n```\t Powered by ᴋɪɴɢ_ᴍᴀʟᴠɪɴ_ᴍᴅ ```";
     }
   }
   isValidMove(_0x59acbc) {
@@ -751,7 +751,7 @@ smd({
       await _0x24df9e("\n" + hcg_Logo + "𝗖𝗔𝗥𝗗 𝗚𝗔𝗠𝗘 𝗗𝗘𝗟𝗘𝗧𝗘𝗗\n\n*Room Id : _hcg-" + _0x4cf9b7.split("@")[0] + "_ Cleared Successfully*\n*_Hidden Card Game Session Deleted From This Chat..._*\n");
     }
   } else {
-    _0x24df9e("┏━━━━━━━━━━━━━━━━━━┓\n┃   𝗞𝗜𝗡𝗚 𝗖𝗔𝗥𝗗 404𝗘𝗿𝗿𝗼𝗿    ┃\n┗━━━━━━━━━━━━━━━━━━┛ \n\n*Uhh Dear, _Theres No Game Started yet in This Chat_*\n");
+    _0x24df9e("┏━━━━━━━━━━━━━━━━━━┓\n┃   𝗤𝗨𝗘𝗘𝗡 𝗖𝗔𝗥𝗗 404𝗘𝗿𝗿𝗼𝗿    ┃\n┗━━━━━━━━━━━━━━━━━━┛ \n\n*Uhh Dear, _Theres No Game Started yet in This Chat_*\n");
   }
 });
 cmd({

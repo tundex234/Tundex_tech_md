@@ -20,7 +20,7 @@ let {
     filename: __filename,
   },
   async (message) => {
-    const channelMessage = `𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝙎𝙐𝙋𝙋𝙊𝙍𝙏\n\n _ʜᴇʏ ʜᴇʀᴇ's ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ, ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs ᴛᴏ ᴋᴇᴇᴘ ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ᴀʟɪᴠᴇ_\n *ʟɪɴᴋ:* https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z\n\n ${Config.botname} *©Malvin King*
+    const channelMessage = `𝐊𝐈𝐍𝐆 𝐌𝐀𝐋𝐕𝐈𝐍 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝙎𝙐𝙋𝙋𝙊𝙍𝙏\n\n _ʜᴇʏ ʜᴇʀᴇ's ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ, ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs ᴛᴏ ᴋᴇᴇᴘ ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ᴀʟɪᴠᴇ_\n *ʟɪɴᴋ:* https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z\n\n ${Config.botname} *©𝙼𝚊𝚕𝚟𝚒𝚗 𝙺𝚒𝚗𝚐*`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -39,7 +39,7 @@ smd(
     filename: __filename,
   },
   async (message) => {
-    const SupportMsg = `*SUPPORT Malvin King*\n\n NMB< Bank: NMB Digital Services Limited (NMB)\n\n NMB Account: 00000235072041 zig\n\n or \n\n:11853763102001 usd *Support The Developer*2\n\n ${Config.botname} MALVIN*`;
+    const SupportMsg = `*SUPPORT 𝙼𝚊𝚕𝚟𝚒𝚗 𝙺𝚒𝚗𝚐*\n\n NMB Bank: NMB Digital Services Limited(NMB)\n\n NMB Account: 11853763102001\n\n *Support The Developer*2\n\n ${Config.botname} *Malvin*`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -150,7 +150,7 @@ smd(
    filename: __filename
  }, async _0x17bb63 => {
    try {
-     let _0x12a593 = "*QUEEN_ANITA-V2 CURRENTLY ACTIVE!*";
+     let _0x12a593 = "*ᴋɪɴɢ_ᴍᴀʟᴠɪɴ_ᴍᴅ CURRENTLY ACTIVE!*";
      await _0x17bb63.reply(_0x12a593, {
        contextInfo: {
          externalAdReply: {
@@ -281,7 +281,7 @@ smd(
          edit: _0x2d7cf6
        }, "asta", _0x4e7c63);
      } catch (_0x28ce7e) {}
-     let _0x50f17a = " *乂 𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃- ＢＯＴ ＦＥＡＴＵＲＥ*\n\n\n  ◦ _Total Features ➪ " + _0x4cf8ed + "_\n  \n*◦ LIST DOWN THE FEATURES*\n\n      _Commands ➪ " + Object.values(_0x4de967.commands).filter(_0x54d4bf => _0x54d4bf.pattern).length + "_\n      _Msg Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x2376a3 => _0x2376a3.on).length + "_\n      _Call Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x54a19b => _0x54a19b.call).length + "_\n      _Group Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x35381c => _0x35381c.group).length + "_\n  \n\n" + Config.caption;
+     let _0x50f17a = " *乂 𝐊𝐈𝐍𝐆 𝐌𝐀𝐋𝐕𝐈𝐍 - ＢＯＴ ＦＥＡＴＵＲＥ*\n\n\n  ◦ _Total Features ➪ " + _0x4cf8ed + "_\n  \n*◦ LIST DOWN THE FEATURES*\n\n      _Commands ➪ " + Object.values(_0x4de967.commands).filter(_0x54d4bf => _0x54d4bf.pattern).length + "_\n      _Msg Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x2376a3 => _0x2376a3.on).length + "_\n      _Call Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x54a19b => _0x54a19b.call).length + "_\n      _Group Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x35381c => _0x35381c.group).length + "_\n  \n\n" + Config.caption;
      await _0x4e7c63.bot.relayMessage(_0x4e7c63.chat, {
        requestPaymentMessage: {
          currencyCodeIso4217: "NG",

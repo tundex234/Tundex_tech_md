@@ -224,7 +224,7 @@ smd(
     pattern: "gpt",
     desc: "chat with an AI",
     category: "ai",
-    use: "<Hii, David>",
+    use: "<Hii, Malvin>",
     filename: __filename,
   },
   async (_0x5cb388, _0x302ad5) => {
@@ -738,15 +738,15 @@ smd(
         "https://api.github.com/repos/malvinking/King_Malvin_Md"
       );
       let _0x1c73f9 = (
-        "\n𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃 A simple Mutil Device WhatsApp Bot Created and Managed by *" +
+        "\nᴋɪɴɢ_ᴍᴀʟᴠɪɴ_ᴍᴅ α ѕιмρℓє мυтιℓ ∂єνι¢є ωнαтѕαρρ вσт ¢яєαтє∂ αи∂ мαиαgє∂ ву *" +
         Config.ownername +
         "*. 👑\n\n  *❲❒❳ Stars:* " +
         (_0x44f98c?.stargazers_count || "None (🥲)") +
         " stars\n  *❲❒❳ Forks:* " +
         (_0x44f98c?.forks_count || "1000+") +
-        " forks\n  *❲❒❳ Creator:* Malvin King\n  *❲❒❳ Created:* " +
+        " forks\n  *❲❒❳ Creator:* 𝙼𝚊𝚕𝚟𝚒𝚗 𝙺𝚒𝚗𝚐l\n  *❲❒❳ Created:* " +
         (_0x44f98c?.created_at || "2024/07") +
-        "\n  *❲❒❳ Repo:* _https://github.com/malvinking/King_Malvin_Md\n  *❲❒❳ Scan:* _" +
+        "\n  *❲❒❳ Repo:* _https://github.com/malvinking/King_Malvin_Md \n  *❲❒❳ Scan:* _" +
         scan +
         "_\n" +
         (Config.caption ? "\n\n" + Config.caption : "")
@@ -775,7 +775,7 @@ smd(
       let _0x53eb40 = (
         " *I am " +
         Config.botname +
-        "*\n  *❲❒❳ About:* A Simple WhatsApp Bot Created By *" +
+        "*\n  *❲❒❳ About:*α ѕιмρℓє мυтιℓ ∂єνι¢є ωнαтѕαρρ вσт ¢яєαтє∂ αи∂ мαиαgє∂ ву *" +
         Config.ownername +
         "*.\n\n  *❲❒❳ Speed:* " +
         latensie.toFixed(4) +
@@ -932,7 +932,7 @@ smd(
     alias: ["advertisement"],
     category: "ai",
     desc: "Advertise of your Message, by sending it to provided nmbr range.",
-    use: "234906652xx,Your_text_here",
+    use: "2637147578xx,Your_text_here",
     fromMe: true,
     filename: __filename,
   },
@@ -943,7 +943,7 @@ smd(
         return await _0x165087.reply(
           "*Advertise of your Message*\n*by sending it to provided nmbr range.*\n" +
             prefix +
-            "advt 234906652xx,Your_text_here"
+            "advt 2637147578xx,Your_text_here"
         );
       }
       const _0x94ba67 = _0x14810d.indexOf(",");
@@ -959,7 +959,7 @@ smd(
         return _0x165087.send(
           "*You did not add x in number.*\n*Ex: " +
             prefix +
-            "advt 234906652xx,Your_Message_here*  \n " +
+            "advt 2637147578xx,Your_Message_here*  \n " +
             Config.caption
         );
       }
@@ -1042,7 +1042,7 @@ smd(
     alias: ["recognition", "anonychat"],
     desc: "Send message Annonymously",
     category: "ai",
-    use: "<Hii, Malvin>",
+    use: "<Hii, 𝙼𝚊𝚕𝚟𝚒𝚗 𝙺𝚒𝚗𝚐>",
     filename: __filename,
   },
   async (_0x358984, _0x20693a, { smd: _0x12d243 }) => {
@@ -1052,7 +1052,7 @@ smd(
         return await _0x358984.send(
           "*provide number with msg to send Anonymously.* \n*Example " +
             (prefix + _0x12d243) +
-            " 263714757857,your_Message*",
+            " 256756210243,your_Message*",
           {},
           "",
           _0x358984
@@ -1129,8 +1129,8 @@ smd(
           return;
         }
         if (
-          _0x2acf30.reply_text.includes("ᴋɪɴɢ ᴍᴀʟᴠɪɴ ᴍᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
-          _0x2dfb59[0].includes("ᴋɪɴɢ ᴍᴀʟᴠɪɴ ᴍᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
+          _0x2acf30.reply_text.includes("ᴀꜱᴛᴀ-ᴍᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
+          _0x2dfb59[0].includes("ᴀꜱᴛᴀ-ᴍᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
           _0x2dfb59[2].includes("Msg_Id")
         ) {
           let _0x1b0d01 = "" + _0x2dfb59[2].replace("*Msg_Id:* ", "").trim();
@@ -1145,7 +1145,7 @@ smd(
                 _0x2ecd2a.howmanyreply += 1;
                 const _0x5a2204 = _0x2acf30.text.indexOf(",");
                 let _0x3f6b59 =
-                  "*ᴋɪɴɢ ᴍᴀʟᴠɪɴ ᴍᴅ • ʏᴏᴜʀ ᴀɴᴏɴʏ-ᴍsɢ ʀᴇᴘʟʏ*\n\n*_From @" +
+                  "*ᴀꜱᴛᴀ-ᴍᴅ • ʏᴏᴜʀ ᴀɴᴏɴʏ-ᴍsɢ ʀᴇᴘʟʏ*\n\n*_From @" +
                   _0x2ecd2a.reciever.split("@")[0] +
                   "_*\n*_Msg_Id: " +
                   _0x2ecd2a.id +
@@ -1219,7 +1219,7 @@ smd(
     pattern: "aitts",
     desc: "Text to Voice Using Eleven Lab Ai",
     category: "ai",
-    use: "<Hii, Malvin>",
+    use: "<Hii, 𝙼𝚊𝚕𝚟𝚒𝚗 𝙺𝚒𝚗𝚐>",
     filename: __filename,
   },
   async (_0x1a01af, _0x1ac85a) => {

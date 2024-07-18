@@ -269,12 +269,12 @@ smd(
     }
     let _0x762894 = (
       "\n   👤 *" +
-      (Config.botname ? Config.botname : "𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃") +
+      (Config.botname ? Config.botname : "ᴋɪɴɢ_ᴍᴀʟᴠɪɴ_ᴍᴅ") +
       " MODS* 👤\n   \n" +
       _0x10bccf
     ).trim();
     return await _0xf78029.reply(
-      "https://telegra.ph/file/5fd51597b0270b8cff15b.png",
+      "https://telegra.ph/file/72862bb0ac87293d1d198.png",
       {
         caption: _0x762894,
         mentions: _0x1babe2,

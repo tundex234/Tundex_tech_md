@@ -155,7 +155,7 @@ async(message, match) => {
  try{
 
    message.react("🔍")
-         if (!match) return message.reply(`Give me a user name like ${prefix}github Astropeda`)
+         if (!match) return message.reply(`Give me a user name like ${prefix}github malvinking`)
 
          const { data } = await axios(`https://api.github.com/users/${match}`)
    if(!data) return await message.send(`*_Didn't get any results, Provide valid user name!_*`)
@@ -365,7 +365,7 @@ smd({
         },
         async(message, text) => {
           try{
-            if (!text) return message.reply(`*_Uhh please, give me a query_*\n*_Example : ${prefix}google King Malvin._*`);
+            if (!text) return message.reply(`*_Uhh please, give me a query_*\n*_Example : ${prefix}google Queen Anita._*`);
             let google = require('google-it');
             google({ 'query': text}).then(res => {
                 let msg= `Google Search From : ${text} \n\n`;

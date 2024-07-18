@@ -46,12 +46,12 @@ try {
         let commits = await DB.syncgit();
         if (commits.total === 0)
           return await citel.reply(
-            `*𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃 IS RUNNING ON LATEST\nPATCHES\nFIXES\UPGRADES*`
+            `*ᴋɪɴɢ_ᴍᴀʟᴠɪɴ_ᴍᴅ IS RUNNING ON LATEST\nPATCHES\nFIXES\UPGRADES*`
           );
         let update = await DB.sync();
         await citel.bot.sendMessage(
           citel.chat,
-          { text: update.replace(/SuhailTechIMd/, " David Cyril") },
+          { text: update.replace(/SuhailTechIMd/, " 𝙼𝚊𝚕𝚟𝚒𝚗 𝙺𝚒𝚗𝚐") },
           { quoted: citel }
         );
         if (

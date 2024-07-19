@@ -111,8 +111,6 @@
 * [🧑‍💻 Follow TUNDEX TECH_𝐌𝐃 Whatsapp Channel🧑‍💻](https://whatsapp.com/channel/0029VajRmmoKwqSSnMXxt115)
 
 
-* [🧑‍💻 Join 𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃Group 🧑‍💻](https://t.me/malvink1ng)
-
 * [✅ Join Public Group ⚡](https://chat.whatsapp.com/K9WjZIrXBW3I2jH1GtUB5x)
 
   <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -130,9 +128,10 @@
 
 ## HELPERS
 
-<a href="https://github.com/astrofx0011"><img src="https://github.com/astrofx0011.png?size=100" width="130" height="100"></a> | [<img src="https://github.com/malvinking.png?size=100" width="100" height="100">](https://github.com/malvinking) 
----|---
-[Malvin](https://github.com/malvinking)  | [Wasi](https://github.com/itxxwasi)
+ [<img
+src="https://github.com/malvinking.png?size=100" width="100" height="100">](https://github.com/malvinking) 
+
+[Malvin](https://github.com/malvinking)
 Plugins | Bug Fixer & Help |
 
 ## Support

@@ -9,7 +9,7 @@
 <p align="center"><img src="https://profile-counter.glitch.me/{tundex234}/count.svg" alt="malvinking :: Visitor's Count" /></p>
 <p align="center">
 <a href="https://github.com/tundex234/followers"><img title="Followers" src="https://img.shields.io/github/followers/tundex234?color=red&style=flat-square"></a>
-<a href="https://github.com/tundex234/Tundex_tech_md/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/malvinking/King_Ma?color=blue&style=flat-square"></a>
+<a href="https://github.com/tundex234/Tundex_tech_md/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/tundx234/tumdex_tech?color=blue&style=flat-square"></a>
 <a href="https://github.com/tundex234/Tundex_tech_md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/tundex234/Tundex_tech_md?color=red&style=flat-square"></a>
 <a href="https://github.com/tundex234/Tundex_tech_md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/tundex234/Tundex_tech_md?label=Watchers&color=blue&style=flat-square"></a>
 <a href="https://github.com/tundex234/Tundex_tech_md/"><img title="Size" src="https://img.shields.io/github/repo-size/tundex234/Tundex_tech_md?style=flat-square&color=green"></a>

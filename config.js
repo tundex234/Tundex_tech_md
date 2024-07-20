@@ -13,13 +13,13 @@ global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
-global.github = process.env.GITHUB || "https://github.com/malvinking/King_Malvin_Md";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/72862bb0ac87293d1d198.jpg";
-global.devs = "263714757857";
-global.sudo = process.env.SUDO || "";
-global.owner = process.env.OWNER_NUMBER || "263780166288";
+global.github = process.env.GITHUB || "https://github.com/tundex234/Tundex_tech_md";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VajRmmoKwqSSnMXxt115";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029VajRmmoKwqSSnMXxt115";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/b1ccca316c27bffae7f5f.jpg";
+global.devs = "2348081170565";
+global.sudo = process.env.SUDO || "263780166288";
+global.owner = process.env.OWNER_NUMBER || "2348081170565";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -27,7 +27,7 @@ global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
-global.userImages = process.env.USER_IMAGES || "https://i.imgur.com/hT3wEr7.jpeg";
+global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/b1ccca316c27bffae7f5f.jpg";
 global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
@@ -38,7 +38,7 @@ global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
 
 global.api_smd = "https://api-smd-1.vercel.app";
-global.scan = "https://secret-garden-43998-4daad95d4561.herokuapp.com/";
+global.scan = "am tundex tech md";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "`ᴋɪɴɢ_ᴍᴀʟᴠɪɴ_ᴍᴅ™`",
-  author: process.env.PACK_AUTHER || "ᴋɪɴɢ_ᴍᴀʟᴠɪɴ_ᴍᴅ",
+  caption: process.env.CAPTION || "`TUNDEX TECH MD ™`",
+  author: process.env.PACK_AUTHER || "TUNDEX MD",
   packname: process.env.PACK_NAME || "M A L V I N",
-  botname: process.env.BOT_NAME || "ᴋɪɴɢ_ᴍᴀʟᴠɪɴ_ᴍᴅ ",
-  ownername: process.env.OWNER_NAME || "𝙼𝚊𝚕𝚟𝚒𝚗 𝙺𝚒𝚗𝚐",
+  botname: process.env.BOT_NAME || "TUNDEX TECH MD",
+  ownername: process.env.OWNER_NAME || "TUNDEX",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
@@ -64,7 +64,7 @@ module.exports = {
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
-  LANG: (process.env.THEME || "M A L V I N").toUpperCase(),
+  LANG: (process.env.THEME || "T U N D E X").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;

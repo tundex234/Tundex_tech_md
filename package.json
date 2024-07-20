@@ -1,16 +1,16 @@
 {
-   "name": "King_Malvin_Md",
+   "name": "Tundex_tech_md",
    "version": "2.5.0",
-   "description": "Multi device whatsapp bot by malvinking.",
+   "description": "Multi device whatsapp bot by tundex.",
    "main": "index.js",
    "type": "commonjs",
    "scripts": {
-      "run": "pm2 start . --deep-monitoring --attach --name King_Malvin_Md || node .",
-      "asta": "pm2 start . --deep-monitoring --attach --name King_Malvin_Md || node .",
-      "start": "pm2 start . --attach --name King_Malvin_Md",
-      "stop": "pm2 stop King_Malvin_Md",
-      "heroku-postbuild": "git clone https://github.com/malvinking/King_Malvin_Md temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-      "fis-heroku-postbuild": "git clone https://github.com/malvinking/King_Malvin_Md.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
+      "run": "pm2 start . --deep-monitoring --attach --name Tundex_tech_md || node .",
+      "asta": "pm2 start . --deep-monitoring --attach --name Tundex_tech_md || node .",
+      "start": "pm2 start . --attach --name Tundex_tech_md",
+      "stop": "pm2 stop Tundex_tech_md",
+      "heroku-postbuild": "git clone https://github.com/tundex234/Tundex_tech_md temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+      "fis-heroku-postbuild": "git clone https://github.com/tundex234/Tundex_tech_md.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
    },
    "author": "Malvin King",
@@ -75,10 +75,10 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/malvinking/King_Malvin_Md.git"
+      "url": "git+https://github.com/malvinking/Tundex_tech_md.git"
    },
    "bugs": {
-      "url": "https://github.com/malvinking/King_Malvin_Md/issues"
+      "url": "https://github.com/malvinking/Tundex_tech_md/issues"
    },
-   "homepage": "https://github.com/malvinking/King_Malvin_Md#readme"
+   "homepage": "https://github.com/malvinking/Tundex_tech_md#readme"
 }

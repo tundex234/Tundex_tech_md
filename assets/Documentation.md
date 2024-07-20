@@ -1,5 +1,5 @@
 
-# 𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃 WhatsApp Bot Simple Document
+# Tundex_tech WhatsApp Bot Simple Document
 ### Simple Document on how The Database Works
 ----------------------------------------------------------------
 ### Simple Document on how The Database Works

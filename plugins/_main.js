@@ -488,8 +488,8 @@ smd({
   try {
     let {
       data: _0x44f98c
-    } = await axios.get("https://github.com/malvinking/King_Malvin_Md");
-    let _0x1c73f9 = ("\n*ᴋɪɴɢ_ᴍᴀʟᴠɪɴ_ᴍᴅ REPO*\n\n https://github.com/malvinking/King_Malvin_Md*" + Config.ownername + "*.\n\n  *❲❒❳ Stars:* " + (_0x44f98c?.stargazers_count || "120+") + " stars\n  *❲❒❳ Forks:* " + (_0x44f98c?.forks_count || "1000+") + " forks\n  *❲❒❳ Authors:* 𝙼𝚊𝚕𝚟𝚒𝚗 𝙺𝚒𝚗𝚐\n  *❲❒❳ Created On:* " + (_0x44f98c?.created_at || "undefined") + "\n  *❲❒❳ Repo:* _https://github.com/malvinking/King_Malvin_Md_\n  *❲❒❳ Scan:* _" + scan + "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
+    } = await axios.get("https://github.com/tundex234/Tundex_tech_md");
+    let _0x1c73f9 = ("\n*ᴋɪɴɢ_ᴍᴀʟᴠɪɴ_ᴍᴅ REPO*\n\n https://github.com/tundex234/Tundex_tech_md*" + Config.ownername + "*.\n\n  *❲❒❳ Stars:* " + (_0x44f98c?.stargazers_count || "10+") + " stars\n  *❲❒❳ Forks:* " + (_0x44f98c?.forks_count || "100+") + " forks\n  *❲❒❳ Authors:* TUNDEX\n  *❲❒❳ Created On:* " + (_0x44f98c?.created_at || "undefined") + "\n  *❲❒❳ Repo:* _https://github.com/tundex234/Tundex_tech_md\n  *❲❒❳ Scan:* _" + scan + "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
     return await _0x45da98.sendUi(_0x45da98.jid, {
       caption: _0x1c73f9
     });

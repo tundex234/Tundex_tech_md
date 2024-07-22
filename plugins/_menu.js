@@ -150,9 +150,9 @@ astro_patch.smd(
   ${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
   ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
   ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
-  ${menuThemeFooter}\n                   ┌┤✑  Thanks for Choosing 𝐊𝐈𝐍𝐆_𝐌𝐀𝐋𝐕𝐈𝐍_𝐌𝐃
+  ${menuThemeFooter}\n                   ┌┤✑  Thanks for Choosing TUNDEX TECH MD
 │└────────────┈ ⳹        
-│*©2024-2099 𝙼𝚊𝚕𝚟𝚒𝚗 𝙺𝚒𝚗𝚐*
+│*©2024-2099 TUNDEX*
 └─────────────────┈ ⳹
   \n${readmore}\n`;
 

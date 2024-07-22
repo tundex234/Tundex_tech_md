@@ -1,5 +1,5 @@
 while true
 do
-echo "Starting King_Malvin_Md!"
+echo "Startin Tundex_tech_md!"
 node .
 done
